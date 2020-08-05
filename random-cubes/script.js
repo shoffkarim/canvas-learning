@@ -4,11 +4,8 @@ var opts = {
   sizeRandom: 10, //Amount of pixels it can be randomed by
   sparkLife: 0.1, //Decreases the sparks life
   spawnOpacity: 1, //Sparks will spawn at this opacity
-  hueRotationSpeed: 7, //Decreases the hue rotatio speed
-
   color: "rgba(39,173,96,alpha)" //The color of sparks.
 },
-tick = 0;
 canvasBody = document.getElementById("canvas"),
 canvas = canvasBody.getContext("2d"),
 w = canvasBody.width = window.innerWidth,
